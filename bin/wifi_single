@@ -1,0 +1,10 @@
+#!/system/bin/sh
+wlan_aging="/wlan_aging.ko"
+if [ ! -f "$wlan_aging" ]; then
+cd /system/lib/modules
+insmod wlan.ko con_mode=5
+else
+cd /
+insmod wlan_aging.ko con_mode=5
+fi
+ftmdaemon -n
