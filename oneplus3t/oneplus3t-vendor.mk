@@ -37,11 +37,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus3t/proprietary/etc/firmware/a530_gpmu.fw2:system/etc/firmware/a530_gpmu.fw2 \
     vendor/oneplus/oneplus3t/proprietary/etc/firmware/a530_pfp.fw:system/etc/firmware/a530_pfp.fw \
     vendor/oneplus/oneplus3t/proprietary/etc/firmware/a530_pm4.fw:system/etc/firmware/a530_pm4.fw \
-    vendor/oneplus/oneplus3t/proprietary/etc/firmware/a530_zap-pro.b00:system/etc/firmware/a530_zap-pro.b00 \
-    vendor/oneplus/oneplus3t/proprietary/etc/firmware/a530_zap-pro.b01:system/etc/firmware/a530_zap-pro.b01 \
-    vendor/oneplus/oneplus3t/proprietary/etc/firmware/a530_zap-pro.b02:system/etc/firmware/a530_zap-pro.b02 \
-    vendor/oneplus/oneplus3t/proprietary/etc/firmware/a530_zap-pro.elf:system/etc/firmware/a530_zap-pro.elf \
-    vendor/oneplus/oneplus3t/proprietary/etc/firmware/a530_zap-pro.mdt:system/etc/firmware/a530_zap-pro.mdt \
     vendor/oneplus/oneplus3t/proprietary/etc/firmware/a530_zap.b00:system/etc/firmware/a530_zap.b00 \
     vendor/oneplus/oneplus3t/proprietary/etc/firmware/a530_zap.b01:system/etc/firmware/a530_zap.b01 \
     vendor/oneplus/oneplus3t/proprietary/etc/firmware/a530_zap.b02:system/etc/firmware/a530_zap.b02 \
