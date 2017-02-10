@@ -89,7 +89,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus3t/proprietary/lib/libFNVfbEngineHAL.so:system/lib/libFNVfbEngineHAL.so \
     vendor/oneplus/oneplus3t/proprietary/lib/lib_oneplus_facebeauty.so:system/lib/lib_oneplus_facebeauty.so \
     vendor/oneplus/oneplus3t/proprietary/lib/lib_oneplus_md.so:system/lib/lib_oneplus_md.so \
-    vendor/oneplus/oneplus3t/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/oneplus/oneplus3t/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/oneplus/oneplus3t/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/oneplus/oneplus3t/proprietary/lib/libmorpho_image_stab4.so:system/lib/libmorpho_image_stab4.so \
