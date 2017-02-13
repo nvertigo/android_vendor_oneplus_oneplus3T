@@ -408,7 +408,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus3t/proprietary/vendor/lib64/qfp.wakeup.so:system/vendor/lib64/qfp.wakeup.so
 
 PRODUCT_PACKAGES += \
-    org.ifaa.android.manager \
     dashd
 
 ifeq ($(QCPATH),)
