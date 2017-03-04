@@ -20,6 +20,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus3t/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/oneplus/oneplus3t/proprietary/bin/qfp-daemon:system/bin/qfp-daemon \
     vendor/oneplus/oneplus3t/proprietary/bin/remosaic_daemon:system/bin/remosaic_daemon \
+    vendor/oneplus/oneplus3t/proprietary/etc/GyroOffset_db.config:system/etc/GyroOffset_db.config \
     vendor/oneplus/oneplus3t/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/oneplus/oneplus3t/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
     vendor/oneplus/oneplus3t/proprietary/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb \
@@ -82,15 +83,29 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus3t/proprietary/etc/firmware/tp/fw_synaptics_15801b.img:system/etc/firmware/tp/fw_synaptics_15801b.img \
     vendor/oneplus/oneplus3t/proprietary/etc/firmware/tp/fw_synaptics_15811.img:system/etc/firmware/tp/fw_synaptics_15811.img \
     vendor/oneplus/oneplus3t/proprietary/etc/firmware/tp/fw_synaptics_touchkey.img:system/etc/firmware/tp/fw_synaptics_touchkey.img \
+    vendor/oneplus/oneplus3t/proprietary/etc/fsync_db.config:system/etc/fsync_db.config \
+    vendor/oneplus/oneplus3t/proprietary/etc/oneplus3T_vstab_db_1080p_video_0.config:system/etc/oneplus3T_vstab_db_1080p_video_0.config \
+    vendor/oneplus/oneplus3t/proprietary/etc/oneplus3T_vstab_db_1080p_video_1.config:system/etc/oneplus3T_vstab_db_1080p_video_1.config \
+    vendor/oneplus/oneplus3t/proprietary/etc/oneplus3T_vstab_db_720p_video_0.config:system/etc/oneplus3T_vstab_db_720p_video_0.config \
+    vendor/oneplus/oneplus3t/proprietary/etc/oneplus3T_vstab_db_720p_video_1.config:system/etc/oneplus3T_vstab_db_720p_video_1.config \
+    vendor/oneplus/oneplus3t/proprietary/etc/oneplus3_vstab_db_1080p_video_0.config:system/etc/oneplus3_vstab_db_1080p_video_0.config \
+    vendor/oneplus/oneplus3t/proprietary/etc/oneplus3_vstab_db_1080p_video_1.config:system/etc/oneplus3_vstab_db_1080p_video_1.config \
+    vendor/oneplus/oneplus3t/proprietary/etc/oneplus3_vstab_db_720p_video_0.config:system/etc/oneplus3_vstab_db_720p_video_0.config \
+    vendor/oneplus/oneplus3t/proprietary/etc/oneplus3_vstab_db_720p_video_1.config:system/etc/oneplus3_vstab_db_720p_video_1.config \
     vendor/oneplus/oneplus3t/proprietary/etc/sensors/hals.conf:system/etc/sensors/hals.conf \
     vendor/oneplus/oneplus3t/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
     vendor/oneplus/oneplus3t/proprietary/lib/TC_Bayer_Converter_v6_core_opt.bin:system/lib/TC_Bayer_Converter_v6_core_opt.bin \
     vendor/oneplus/oneplus3t/proprietary/lib/hw/camera.msm8996.so:system/lib/hw/camera.msm8996.so \
     vendor/oneplus/oneplus3t/proprietary/lib/libFNVfbEngineHAL.so:system/lib/libFNVfbEngineHAL.so \
+    vendor/oneplus/oneplus3t/proprietary/lib/libSensorManagerHAL.so:system/lib/libSensorManagerHAL.so \
     vendor/oneplus/oneplus3t/proprietary/lib/lib_oneplus_facebeauty.so:system/lib/lib_oneplus_facebeauty.so \
     vendor/oneplus/oneplus3t/proprietary/lib/lib_oneplus_md.so:system/lib/lib_oneplus_md.so \
     vendor/oneplus/oneplus3t/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/oneplus/oneplus3t/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
+    vendor/oneplus/oneplus3t/proprietary/lib/libmms_gyro_vstab.so:system/lib/libmms_gyro_vstab.so \
+    vendor/oneplus/oneplus3t/proprietary/lib/libmms_gyro_vstab_auth.so:system/lib/libmms_gyro_vstab_auth.so \
+    vendor/oneplus/oneplus3t/proprietary/lib/libmms_hal_vstab.so:system/lib/libmms_hal_vstab.so \
+    vendor/oneplus/oneplus3t/proprietary/lib/libmms_warper_vstab.so:system/lib/libmms_warper_vstab.so \
     vendor/oneplus/oneplus3t/proprietary/lib/libmorpho_image_stab4.so:system/lib/libmorpho_image_stab4.so \
     vendor/oneplus/oneplus3t/proprietary/lib/libmorpho_video_refiner.so:system/lib/libmorpho_video_refiner.so \
     vendor/oneplus/oneplus3t/proprietary/lib/libop_calib3d.so:system/lib/libop_calib3d.so \
