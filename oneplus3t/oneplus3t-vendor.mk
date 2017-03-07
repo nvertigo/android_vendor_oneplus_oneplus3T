@@ -156,8 +156,15 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus3t/proprietary/lib/rfsa/adsp/libmorpho_video_denoiser_hvx_skel.so:system/lib/rfsa/adsp/libmorpho_video_denoiser_hvx_skel.so \
     vendor/oneplus/oneplus3t/proprietary/lib64/hw/fingerprint.msm8996.so:system/lib64/hw/fingerprint.msm8996.so \
     vendor/oneplus/oneplus3t/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
+    vendor/oneplus/oneplus3t/proprietary/lib64/libfilter-sdk.so:system/lib64/libfilter-sdk.so \
+    vendor/oneplus/oneplus3t/proprietary/lib64/libopbaselib.so:system/lib64/libopbaselib.so \
+    vendor/oneplus/oneplus3t/proprietary/lib64/libopcamera.so:system/lib64/libopcamera.so \
+    vendor/oneplus/oneplus3t/proprietary/lib64/libopcameralib.so:system/lib64/libopcameralib.so \
     vendor/oneplus/oneplus3t/proprietary/lib64/libparam.so:system/lib64/libparam.so \
     vendor/oneplus/oneplus3t/proprietary/lib64/libteeclientjni.so:system/lib64/libteeclientjni.so \
+    vendor/oneplus/oneplus3t/proprietary/priv-app/OnePlusCamera/OnePlusCamera.apk:system/priv-app/OnePlusCamera/OnePlusCamera.apk \
+    vendor/oneplus/oneplus3t/proprietary/priv-app/OnePlusCameraService/OnePlusCameraService.apk:system/priv-app/OnePlusCameraService/OnePlusCameraService.apk \
+    vendor/oneplus/oneplus3t/proprietary/priv-app/OnePlusGallery/OnePlusGallery.apk:system/priv-app/OnePlusGallery/OnePlusGallery.apk \
     vendor/oneplus/oneplus3t/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
     vendor/oneplus/oneplus3t/proprietary/vendor/lib/libSonyIMX298PdafLibrary.so:system/vendor/lib/libSonyIMX298PdafLibrary.so \
     vendor/oneplus/oneplus3t/proprietary/vendor/lib/libactuator_rohm_bu63165gwl.so:system/vendor/lib/libactuator_rohm_bu63165gwl.so \
