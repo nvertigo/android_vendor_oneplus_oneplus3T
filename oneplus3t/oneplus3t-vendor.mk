@@ -428,7 +428,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     OnePlusCamera \
-    OnePlusCameraService \
     OnePlusGallery \
     dashd
 
