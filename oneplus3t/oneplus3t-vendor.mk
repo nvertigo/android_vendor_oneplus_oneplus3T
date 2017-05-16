@@ -451,7 +451,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus3t/proprietary/bin/pm-proxy:system/bin/pm-proxy \
     vendor/oneplus/oneplus3t/proprietary/bin/pm-service:system/bin/pm-service \
     vendor/oneplus/oneplus3t/proprietary/bin/qseecomd:system/bin/qseecomd \
-    vendor/oneplus/oneplus3t/proprietary/bin/qvop-daemon:system/bin/qvop-daemon \
     vendor/oneplus/oneplus3t/proprietary/bin/radish:system/bin/radish \
     vendor/oneplus/oneplus3t/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/oneplus/oneplus3t/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
@@ -619,7 +618,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus3t/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
     vendor/oneplus/oneplus3t/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/oneplus/oneplus3t/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
-    vendor/oneplus/oneplus3t/proprietary/vendor/lib/libqvop-service.so:system/vendor/lib/libqvop-service.so \
     vendor/oneplus/oneplus3t/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/oneplus/oneplus3t/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/oneplus/oneplus3t/proprietary/vendor/lib/libsd_sdk_display.so:system/vendor/lib/libsd_sdk_display.so \
@@ -783,7 +781,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus3t/proprietary/vendor/lib64/libqmi_encdec.so:system/vendor/lib64/libqmi_encdec.so \
     vendor/oneplus/oneplus3t/proprietary/vendor/lib64/libqmiservices.so:system/vendor/lib64/libqmiservices.so \
     vendor/oneplus/oneplus3t/proprietary/vendor/lib64/libquipc_os_api.so:system/vendor/lib64/libquipc_os_api.so \
-    vendor/oneplus/oneplus3t/proprietary/vendor/lib64/libqvop-service.so:system/vendor/lib64/libqvop-service.so \
     vendor/oneplus/oneplus3t/proprietary/vendor/lib64/librcc.so:system/vendor/lib64/librcc.so \
     vendor/oneplus/oneplus3t/proprietary/vendor/lib64/libril-qc-ltedirectdisc.so:system/vendor/lib64/libril-qc-ltedirectdisc.so \
     vendor/oneplus/oneplus3t/proprietary/vendor/lib64/libril-qc-qmi-1.so:system/vendor/lib64/libril-qc-qmi-1.so \
