@@ -20,21 +20,20 @@ LOCAL_PATH := $(call my-dir)
 ifeq ($(TARGET_DEVICE),oneplus3t)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := OnePlusCamera
+LOCAL_MODULE := OnePlusGallery
 LOCAL_MODULE_OWNER := oneplus
-LOCAL_SRC_FILES := proprietary/priv-app/OnePlusCamera/OnePlusCamera.apk
+LOCAL_SRC_FILES := proprietary/app/OnePlusGallery/OnePlusGallery.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
 LOCAL_DEX_PREOPT := false
 LOCAL_MODULE_SUFFIX := .apk
-LOCAL_PRIVILEGED_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := OnePlusGallery
+LOCAL_MODULE := OnePlusCamera
 LOCAL_MODULE_OWNER := oneplus
-LOCAL_SRC_FILES := proprietary/priv-app/OnePlusGallery/OnePlusGallery.apk
+LOCAL_SRC_FILES := proprietary/priv-app/OnePlusCamera/OnePlusCamera.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
