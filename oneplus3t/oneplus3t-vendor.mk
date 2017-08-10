@@ -818,6 +818,8 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus3t/proprietary/vendor/qcril.db:system/vendor/qcril.db
 
 PRODUCT_PACKAGES += \
+    libcameraservice \
+    libmediaplayerservice \
     libloc_api_v02 \
     libsdm-disp-apis \
     libthermalclient \

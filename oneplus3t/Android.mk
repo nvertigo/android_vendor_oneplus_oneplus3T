@@ -32,6 +32,30 @@ include $(BUILD_PREBUILT)
 
 ifeq ($(QCPATH),)
 include $(CLEAR_VARS)
+LOCAL_MODULE := libcameraservice
+LOCAL_MODULE_OWNER := oneplus
+LOCAL_SRC_FILES_64 := proprietary/lib64/libcameraservice.so
+LOCAL_SRC_FILES_32 := proprietary/lib/libcameraservice.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_EXPORT_C_INCLUDE_DIRS := frameworks/av/services/camera/libcameraservice
+#include $(PREBUILT_SHARED_LIBRARY)
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libmediaplayerservice
+LOCAL_MODULE_OWNER := oneplus
+LOCAL_SRC_FILES_64 := proprietary/lib64/libmediaplayerservice.so
+LOCAL_SRC_FILES_32 := proprietary/lib/libmediaplayerservice.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := libloc_api_v02
 LOCAL_MODULE_OWNER := oneplus
 LOCAL_SRC_FILES := proprietary/lib64/libloc_api_v02.so
