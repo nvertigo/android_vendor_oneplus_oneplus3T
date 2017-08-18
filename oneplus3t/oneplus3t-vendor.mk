@@ -856,8 +856,10 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus3t/proprietary/vendor/lib/libqti-iop.so:system/vendor/lib/libqti-iop.so \
     vendor/oneplus/oneplus3t/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/oneplus/oneplus3t/proprietary/vendor/lib/libqti-util.so:system/vendor/lib/libqti-util.so \
+    vendor/oneplus/oneplus3t/proprietary/vendor/lib/libqti_performance.so:system/vendor/lib/libqti_performance.so \
     vendor/oneplus/oneplus3t/proprietary/vendor/lib64/libqti-iop-client.so:system/vendor/lib64/libqti-iop-client.so \
     vendor/oneplus/oneplus3t/proprietary/vendor/lib64/libqti-iop.so:system/vendor/lib64/libqti-iop.so \
-    vendor/oneplus/oneplus3t/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so
-    vendor/oneplus/oneplus3t/proprietary/vendor/lib64/libqti-util.so:system/vendor/lib64/libqti-util.so
+    vendor/oneplus/oneplus3t/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
+    vendor/oneplus/oneplus3t/proprietary/vendor/lib64/libqti-util.so:system/vendor/lib64/libqti-util.so \
+    vendor/oneplus/oneplus3t/proprietary/vendor/lib64/libqti_performance.so:system/vendor/lib64/libqti_performance.so
 endif
