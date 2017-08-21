@@ -843,23 +843,20 @@ endif
 -include vendor/extra/devices.mk
 ifneq ($(call is-qc-perf-target),true)
 PRODUCT_COPY_FILES += \
-    vendor/oneplus/oneplus3t/proprietary/bin/iop:system/bin/iop \
-    vendor/oneplus/oneplus3t/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/oneplus/oneplus3t/proprietary/vendor/etc/perf-profile0.conf:system/vendor/etc/perf-profile0.conf \
     vendor/oneplus/oneplus3t/proprietary/vendor/etc/perf-profile1.conf:system/vendor/etc/perf-profile1.conf \
     vendor/oneplus/oneplus3t/proprietary/vendor/etc/perf-profile2.conf:system/vendor/etc/perf-profile2.conf \
     vendor/oneplus/oneplus3t/proprietary/vendor/etc/perf-profile3.conf:system/vendor/etc/perf-profile3.conf \
     vendor/oneplus/oneplus3t/proprietary/vendor/etc/perf-profile4.conf:system/vendor/etc/perf-profile4.conf \
     vendor/oneplus/oneplus3t/proprietary/vendor/etc/perf-profile5.conf:system/vendor/etc/perf-profile5.conf \
-    vendor/oneplus/oneplus3t/proprietary/vendor/etc/perf-profile6.conf:system/vendor/etc/perf-profile6.conf \
-    vendor/oneplus/oneplus3t/proprietary/vendor/lib/libqti-iop-client.so:system/vendor/lib/libqti-iop-client.so \
-    vendor/oneplus/oneplus3t/proprietary/vendor/lib/libqti-iop.so:system/vendor/lib/libqti-iop.so \
-    vendor/oneplus/oneplus3t/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
-    vendor/oneplus/oneplus3t/proprietary/vendor/lib/libqti-util.so:system/vendor/lib/libqti-util.so \
-    vendor/oneplus/oneplus3t/proprietary/vendor/lib/libqti_performance.so:system/vendor/lib/libqti_performance.so \
-    vendor/oneplus/oneplus3t/proprietary/vendor/lib64/libqti-iop-client.so:system/vendor/lib64/libqti-iop-client.so \
-    vendor/oneplus/oneplus3t/proprietary/vendor/lib64/libqti-iop.so:system/vendor/lib64/libqti-iop.so \
-    vendor/oneplus/oneplus3t/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
-    vendor/oneplus/oneplus3t/proprietary/vendor/lib64/libqti-util.so:system/vendor/lib64/libqti-util.so \
-    vendor/oneplus/oneplus3t/proprietary/vendor/lib64/libqti_performance.so:system/vendor/lib64/libqti_performance.so
+    vendor/oneplus/oneplus3t/proprietary/vendor/etc/perf-profile6.conf:system/vendor/etc/perf-profile6.conf
+
+PRODUCT_PACKAGES += \
+    libqti-iop-client \
+    libqti-iop \
+    libqti-perfd-client \
+    libqti-util \
+    libqti_performance \
+    iop \
+    perfd
 endif
