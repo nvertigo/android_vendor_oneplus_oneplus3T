@@ -847,13 +847,7 @@ endif
 -include vendor/extra/devices.mk
 ifneq ($(call is-qc-perf-target),true)
 PRODUCT_COPY_FILES += \
-    vendor/oneplus/oneplus3t/proprietary/vendor/etc/perf-profile0.conf:system/vendor/etc/perf-profile0.conf \
-    vendor/oneplus/oneplus3t/proprietary/vendor/etc/perf-profile1.conf:system/vendor/etc/perf-profile1.conf \
-    vendor/oneplus/oneplus3t/proprietary/vendor/etc/perf-profile2.conf:system/vendor/etc/perf-profile2.conf \
-    vendor/oneplus/oneplus3t/proprietary/vendor/etc/perf-profile3.conf:system/vendor/etc/perf-profile3.conf \
-    vendor/oneplus/oneplus3t/proprietary/vendor/etc/perf-profile4.conf:system/vendor/etc/perf-profile4.conf \
-    vendor/oneplus/oneplus3t/proprietary/vendor/etc/perf-profile5.conf:system/vendor/etc/perf-profile5.conf \
-    vendor/oneplus/oneplus3t/proprietary/vendor/etc/perf-profile6.conf:system/vendor/etc/perf-profile6.conf
+    vendor/oneplus/oneplus3t/proprietary/vendor/etc/perf-profile0.conf:system/vendor/etc/perf-profile0.conf
 
 PRODUCT_PACKAGES += \
     libqti-iop-client \
