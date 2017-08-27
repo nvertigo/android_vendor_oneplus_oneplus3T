@@ -38,10 +38,15 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus3t/proprietary/etc/firmware/a530_gpmu.fw2:system/etc/firmware/a530_gpmu.fw2 \
     vendor/oneplus/oneplus3t/proprietary/etc/firmware/a530_pfp.fw:system/etc/firmware/a530_pfp.fw \
     vendor/oneplus/oneplus3t/proprietary/etc/firmware/a530_pm4.fw:system/etc/firmware/a530_pm4.fw \
+    vendor/oneplus/oneplus3t/proprietary/etc/firmware/a530_zap-pro.b00:system/etc/firmware/a530_zap-pro.b00 \
     vendor/oneplus/oneplus3t/proprietary/etc/firmware/a530_zap.b00:system/etc/firmware/a530_zap.b00 \
+    vendor/oneplus/oneplus3t/proprietary/etc/firmware/a530_zap-pro.b01:system/etc/firmware/a530_zap-pro.b01 \
     vendor/oneplus/oneplus3t/proprietary/etc/firmware/a530_zap.b01:system/etc/firmware/a530_zap.b01 \
+    vendor/oneplus/oneplus3t/proprietary/etc/firmware/a530_zap-pro.b02:system/etc/firmware/a530_zap-pro.b02 \
     vendor/oneplus/oneplus3t/proprietary/etc/firmware/a530_zap.b02:system/etc/firmware/a530_zap.b02 \
+    vendor/oneplus/oneplus3t/proprietary/etc/firmware/a530_zap-pro.elf:system/etc/firmware/a530_zap-pro.elf \
     vendor/oneplus/oneplus3t/proprietary/etc/firmware/a530_zap.elf:system/etc/firmware/a530_zap.elf \
+    vendor/oneplus/oneplus3t/proprietary/etc/firmware/a530_zap-pro.mdt:system/etc/firmware/a530_zap-pro.mdt \
     vendor/oneplus/oneplus3t/proprietary/etc/firmware/a530_zap.mdt:system/etc/firmware/a530_zap.mdt \
     vendor/oneplus/oneplus3t/proprietary/etc/firmware/a530v1_pfp.fw:system/etc/firmware/a530v1_pfp.fw \
     vendor/oneplus/oneplus3t/proprietary/etc/firmware/a530v1_pm4.fw:system/etc/firmware/a530v1_pm4.fw \
@@ -507,7 +512,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus3t/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/oneplus/oneplus3t/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/oneplus/oneplus3t/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
-    vendor/oneplus/oneplus3t/proprietary/etc/thermal-engine.conf:system/etc/thermal-engine.conf \
     vendor/oneplus/oneplus3t/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
     vendor/oneplus/oneplus3t/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
     vendor/oneplus/oneplus3t/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
